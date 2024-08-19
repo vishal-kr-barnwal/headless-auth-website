@@ -1,15 +1,15 @@
 {
-  "name": "celestialdocs",
+  "name": "veda-verify-website",
   "type": "module",
   "version": "0.0.5",
-  "description": "Documentation template using AstroJS and Shadcn",
-  "author": "Hyperoot <rajesh@hyperoot.dev>",
+  "description": "Veda Verify Website",
+  "author": "Vishal Kumar <vkgkrt@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HYP3R00T/CelestialDocs"
+    "url": "https://github.com/vishal-kr-barnwal/veda-verify-website"
   },
-  "homepage": "https://celestialdocs.hyperoot.dev/",
+  "homepage": "https://github.com/vishal-kr-barnwal/rust-identity-website",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
