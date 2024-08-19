@@ -11,11 +11,7 @@ import type { HeadSEOProps } from "@/lib/types";
 
 const canonicalURL = new URL(Astro.url);
 
-if (Astro.props.ogImage === undefined) {
-  Astro.props.ogImage = new URL("og-image.jpg", canonicalURL);
-}
-
-const { title, description, ogImage } = Astro.props as HeadSEOProps;
+const { title, description } = Astro.props as HeadSEOProps;
 ---
 
 <meta charset="utf-8" />
@@ -33,12 +29,10 @@ const { title, description, ogImage } = Astro.props as HeadSEOProps;
 <meta property="og:url" content={canonicalURL} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={ogImage} />
 
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={canonicalURL} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content={ogImage} />
 
 <ViewTransitions />

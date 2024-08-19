@@ -7,7 +7,6 @@ import { type LucideIcon } from "lucide-react";
 export interface HeadSEOProps {
   title?: string | undefined;
   description?: string | undefined;
-  ogImage?: URL | undefined;
 }
 
 // Make similar changes to config.ts in content folder
@@ -34,7 +33,6 @@ export type DocsEntry = CollectionEntry<"docs"> & {
 export interface BaseLayoutProps {
   title?: string | undefined;
   description?: string | undefined;
-  ogImage?: URL | undefined;
 }
 
 // For [...slug].astro

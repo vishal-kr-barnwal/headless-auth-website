@@ -8,7 +8,7 @@ import { capitalizeFirstLetter } from "@/lib/utils";
 
 import { LOCALE, SITE } from "config";
 
-const { title, description, ogImage } = Astro.props as BaseLayoutProps;
+const { title, description } = Astro.props as BaseLayoutProps;
 ---
 
 <!doctype html>
@@ -17,7 +17,6 @@ const { title, description, ogImage } = Astro.props as BaseLayoutProps;
     <HeadSEO
       title=`${title ? capitalizeFirstLetter(title) : SITE.title}`
       description={description}
-      ogImage={ogImage}
     />
   </head>
   <body class="bg-background text-foreground font-sans">
