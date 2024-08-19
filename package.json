@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/vishal-kr-barnwal/veda-verify-website"
   },
-  "homepage": "https://github.com/vishal-kr-barnwal/rust-identity-website",
+  "homepage": "https://github.com/vishal-kr-barnwal/veda-verify-website",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
