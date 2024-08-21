@@ -1,15 +1,16 @@
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="100" cy="100" r="94" stroke="#9D7C7C" stroke-width="12"/>
-<line x1="116" y1="20" x2="116" y2="87" stroke="#75689A" stroke-width="8"/>
-<line x1="116" y1="112" x2="116" y2="180" stroke="#75689A" stroke-width="8"/>
-<line x1="83" y1="20" x2="83" y2="87" stroke="#75689A" stroke-width="8"/>
-<line x1="83" y1="112" x2="83" y2="180" stroke="#75689A" stroke-width="8"/>
-<line x1="112" y1="83" x2="180" y2="83" stroke="#75689A" stroke-width="8"/>
-<line x1="20" y1="83" x2="87" y2="83" stroke="#75689A" stroke-width="8"/>
-<line x1="112" y1="116" x2="180" y2="116" stroke="#75689A" stroke-width="8"/>
-<line x1="20" y1="116" x2="87" y2="116" stroke="#75689A" stroke-width="8"/>
-<circle cx="55.5" cy="55.5" r="8.5" fill="#D37AF2"/>
-<circle cx="55.5" cy="143.5" r="8.5" fill="#9AE68E"/>
-<circle cx="143.5" cy="143.5" r="8.5" fill="#DC8585"/>
-<circle cx="143.5" cy="55.5" r="8.5" fill="#8ECBED"/>
+    <circle cx="100" cy="100" r="94" stroke="#9D7C7C" stroke-width="12"/>
+    <circle cx="100" cy="100" r="20" stroke="#45588A" stroke-width="12"/>
+    <line x1="116" y1="20" x2="116" y2="87" stroke="#75689A" stroke-width="8"/>
+    <line x1="116" y1="112" x2="116" y2="180" stroke="#75689A" stroke-width="8"/>
+    <line x1="83" y1="20" x2="83" y2="87" stroke="#75689A" stroke-width="8"/>
+    <line x1="83" y1="112" x2="83" y2="180" stroke="#75689A" stroke-width="8"/>
+    <line x1="112" y1="83" x2="180" y2="83" stroke="#75689A" stroke-width="8"/>
+    <line x1="20" y1="83" x2="87" y2="83" stroke="#75689A" stroke-width="8"/>
+    <line x1="112" y1="116" x2="180" y2="116" stroke="#75689A" stroke-width="8"/>
+    <line x1="20" y1="116" x2="87" y2="116" stroke="#75689A" stroke-width="8"/>
+    <circle cx="55.5" cy="55.5" r="8.5" fill="#D37AF2"/>
+    <circle cx="55.5" cy="143.5" r="8.5" fill="#9AE68E"/>
+    <circle cx="143.5" cy="143.5" r="8.5" fill="#DC8585"/>
+    <circle cx="143.5" cy="55.5" r="8.5" fill="#8ECBED"/>
 </svg>
